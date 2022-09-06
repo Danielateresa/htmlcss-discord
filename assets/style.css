@@ -289,13 +289,12 @@ header {
 footer {
     background-color: rgb(31, 31, 32);
     padding-top: 10px;
-    ;
 }
 
 .footer_container {
     width: 70%;
     display: flex;
-    margin: 20px auto;
+    margin: 50px auto;
     height: 410px;
 }
 
@@ -305,6 +304,26 @@ footer .footer_row {
 
 .col-3-foot {
     border: 1px dotted lightgray;
+}
+
+footer h2 {
+    color: var(--di-lightblue);
+    font-size: 30px;
+    margin-bottom: 20px
+}
+
+.flag {
+    width: 25px;
+}
+
+footer span {
+    color: var(--di-white)
+}
+
+.social {
+    color: var(--di-white);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer .col-9 {
