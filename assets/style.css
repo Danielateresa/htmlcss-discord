@@ -47,20 +47,20 @@
     background-color: rgb(83, 83, 228);
 } */
 
-.debug .col-5 {
+/* .debug .col-5 {
     background-color: pink;
-}
+} */
 
 
 
-.debug footer .col-3 {
+/* .debug footer .col-3 {
     background-color: rgb(253, 111, 54);
-}
+} */
 
-.debug .col-3-foot {
+/* .debug .col-3-foot {
     background-color: green;
     height: 410px;
-}
+} */
 
 .debug footer>.col-3-foot {
     background-color: rgb(231, 212, 105);
@@ -68,11 +68,15 @@
 }
 
 
-.debug footer .col-9 {
+/* .debug footer .col-9 {
     height: 410px;
     background-color: black;
     border: 1px dotted lightgray;
-}
+} */
+
+/* .debug .col-3-foot {
+    border: 1px dotted lightgray;
+} */
 
 .debug .footer_nav {
     background-color: aqua;
@@ -89,6 +93,7 @@
 
 .col-3-foot {
     width: calc((100% / 12) * 3);
+    line-height: 3;
 }
 
 .col-4 {
@@ -125,7 +130,7 @@
 
 
 
-a {
+header a {
     color: var(--di-white);
     text-decoration: none;
     padding-right: 20px;
@@ -295,16 +300,13 @@ footer {
     width: 70%;
     display: flex;
     margin: 50px auto;
-    height: 410px;
 }
 
 footer .footer_row {
     display: flex;
 }
 
-.col-3-foot {
-    border: 1px dotted lightgray;
-}
+
 
 footer h2 {
     color: var(--di-lightblue);
@@ -320,10 +322,11 @@ footer span {
     color: var(--di-white)
 }
 
-.social {
+.social i {
     color: var(--di-white);
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 10px;
 }
 
 footer .col-9 {
@@ -342,4 +345,20 @@ hr {
     margin-top: 20px;
     width: 70%;
     margin: 0 auto;
+}
+
+h4 {
+    color: var(--di-lightblue);
+    line-height: 0;
+    padding-bottom: 20px;
+}
+
+.footer_link {
+    padding-bottom: 10px;
+}
+
+footer a {
+    display: block;
+    color: var(--di-white);
+    text-decoration: none;
 }
