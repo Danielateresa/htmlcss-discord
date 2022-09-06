@@ -39,10 +39,9 @@
     height: 400px;
 } */
 
-.debug .section_row {
-    height: 500px;
+/* .debug .section_row {
     background-color: green;
-}
+} */
 
 /* .debug .col-7 {
     background-color: rgb(83, 83, 228);
@@ -69,7 +68,7 @@
 }
 
 
-.debug .col-9 {
+.debug footer .col-9 {
     height: 410px;
     background-color: black;
     border: 1px dotted lightgray;
@@ -125,6 +124,7 @@
 }
 
 
+
 a {
     color: var(--di-white);
     text-decoration: none;
@@ -132,19 +132,31 @@ a {
     padding-left: 20px;
 }
 
-.banner_content>h1,
-p {
+.font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner_content h1 {
     padding-bottom: 20px;
     color: var(--di-white);
+    font-size: 50px;
 }
 
-h1 {
-    font-size: xx-large;
-}
-
-main>h1 {
+p {
+    padding-bottom: 20px;
     color: var(--di-black);
-    font-size: xx-large;
+    line-height: 2;
+}
+
+.banner_content p {
+    color: var(--di-white);
+    line-height: 2;
+}
+
+section h1 {
+    color: var(--di-black);
+    font-size: 50px;
+    padding-bottom: 30px;
 }
 
 button {
@@ -192,7 +204,7 @@ header {
 
 .banner_content {
     text-align: center;
-    width: 30%;
+    width: 40%;
     margin: 250px auto;
 }
 
@@ -210,11 +222,46 @@ header {
     display: flex;
     width: 70%;
     margin: 0 auto;
+    height: 600px;
+}
 
+.no_flex {
+    display: block;
+    text-align: center;
+    height: 900px;
 }
 
 .section_text {
-    padding: 50px 50px 0 0;
+    padding: 50px 80px 0 0;
+
+}
+
+.first_section .col-8 {
+    background-image: url(../assets/img/item1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.second_section .col-8 {
+    background-image: url(../assets/img/item2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third_section .col-8 {
+    background-image: url(../assets/img/item3.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.just-chillin {
+
+    height: 600px;
+    padding: 40px 0;
+    background-image: url(../assets/img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
 }
 
 .grey {
