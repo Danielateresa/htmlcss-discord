@@ -177,10 +177,6 @@ button {
 
 }
 
-.grey {
-    background-color: var(--di-light-gray);
-}
-
 p {
     padding-bottom: 20px;
     color: var(--di-black);
@@ -295,6 +291,10 @@ section h1 {
     background-repeat: no-repeat;
     background-position: center;
     height: 50px;
+}
+
+.grey {
+    background-color: var(--di-light-gray);
 }
 
 /* #endregion main */
