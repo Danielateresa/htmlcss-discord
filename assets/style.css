@@ -228,7 +228,7 @@ header {
 .no_flex {
     display: block;
     text-align: center;
-    height: 900px;
+    height: 1000px;
 }
 
 .section_text {
@@ -255,7 +255,6 @@ header {
 }
 
 .just-chillin {
-
     height: 600px;
     padding: 40px 0;
     background-image: url(../assets/img/item4-big.svg);
@@ -268,10 +267,24 @@ header {
     background-color: lightgray;
 }
 
-.tecnology {
-    background-color: green;
-    height: 500px;
+.third_section_button {
+    background-color: var(--di-lightblue);
+    color: var(--di-white);
+    margin-top: 50px;
 }
+
+.section_download {
+    margin-top: 50px;
+    height: 100px;
+}
+
+.star {
+    background-image: url(../assets/img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+}
+
 
 footer {
     background-color: rgb(31, 31, 32);
